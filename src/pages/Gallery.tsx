@@ -1,14 +1,14 @@
 import Layout from "@/components/Layout";
-import HeroSlider from "@/components/HeroSlider";
+import PageHero from "@/components/PageHero";
 import GalleryGrid from "@/components/GalleryGrid";
 
-const Index = () => {
+const Gallery = () => {
   return (
     <Layout>
-      <HeroSlider />
+      <PageHero title="Gallery" breadcrumb="Gallery" />
       <GalleryGrid />
     </Layout>
   );
 };
 
-export default Index;
+export default Gallery;
